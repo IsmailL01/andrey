@@ -17,10 +17,14 @@ public class Program1
         string c  = Console.ReadLine();
         int T = Convert.ToInt32(c);
 
+        string d  = Console.ReadLine();
+        int S1 = Convert.ToInt32(d);
+
         int rezult1 = V1 * T;
         int rezult = V2 * T; 
         int itog = rezult1 + rezult;
+        int itog2 = itog + S1;
 
-        Console.WriteLine("S = " + itog );
+        Console.WriteLine("S = " + itog2 );
     }
 }
